@@ -1,0 +1,52 @@
+#todo-list {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    
+  }
+  #new-task {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  #add-task-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .task-item label {
+    margin-right: 10px;
+  }
+  .task-item button {
+    padding: 3px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .task-item .edit-btn {
+    background-color: #2196F3;
+  }
+  .task-item .save-btn {
+    background-color: #4CAF50;
+  }
+  
